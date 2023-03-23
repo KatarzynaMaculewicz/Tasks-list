@@ -1,0 +1,65 @@
+.tasks_header {
+      padding: 20px;
+      margin: 10px 0px 2px;
+      font-size: 20px;
+      background: white;
+}
+
+.tasks_element {
+      list-style: none;
+      padding: 20px;
+      padding-top: 30px;
+      margin: 0px 0px 2px;
+      font-size: 20px;
+      background: white;
+}
+
+.tasks_content {
+      background: white;
+      border-bottom: 2px solid #EEEDEF;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.tasks_name {
+      flex-grow: 1;
+      text-align: left;
+      word-break: break-word;
+}
+
+.tasks_name--done {
+      flex-grow: 1;
+      text-decoration: line-through;
+      word-break: break-word;
+}
+
+.tasks_button {
+      border: none;
+      color: white;
+      width: 30px;
+      height: 30px;
+      padding: 0px;
+      margin: 0px 5px;
+      flex-shrink: 0;
+
+}
+
+.tasks_button--toggleDone {
+      background: rgb(26, 122, 32);
+}
+
+.tasks_button--toggleDone:active {
+      border: 2px solid black;
+      border-radius: 2px;
+}
+
+.tasks_button--remove {
+      background: crimson;
+}
+
+.tasks_button--remove:active {
+      border: 2px solid black;
+      border-radius: 2px;
+}
