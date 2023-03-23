@@ -55,6 +55,12 @@
       border-radius: 2px;
 }
 
+@media (max-width:767px) {
+      .tasks_button--toggleDone:active {
+            border: none;
+      }
+}
+
 .tasks_button--remove {
       background: crimson;
 }
@@ -62,4 +68,10 @@
 .tasks_button--remove:active {
       border: 2px solid black;
       border-radius: 2px;
+}
+
+@media (max-width:767px) {
+      .tasks_button--remove:active {
+            border: none;
+      }
 }

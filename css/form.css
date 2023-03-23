@@ -26,6 +26,12 @@
       border-radius: 2px;
 }
 
+@media (max-width:767px) {
+      .form_button:active {
+            border: none;
+      }
+}
+
 .form_input {
       padding: 10px;
       border: 2px solid #EEEDEF;
