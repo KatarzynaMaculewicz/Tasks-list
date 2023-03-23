@@ -62,13 +62,12 @@
     const newTaskSubject = document.querySelector(".js-newTask");
     const newTaskContent = newTaskSubject.value.trim();
 
-    if (newTaskContent === "") {
-      return;
+    if (newTaskContent !== "") {
+      addNewTask(newTaskContent);
+      newTaskSubject.value = "";
     }
 
     newTaskSubject.focus();
-    newTaskSubject.value = "";
-    addNewTask(newTaskContent);
   };
 
   const init = () => {
