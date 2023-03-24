@@ -8,7 +8,7 @@
 .tasks_element {
       list-style: none;
       padding: 20px;
-      padding-top: 30px;
+      padding-top: 35px;
       margin: 0px 0px 2px;
       font-size: 20px;
       background: white;
@@ -17,7 +17,7 @@
 .tasks_content {
       background: white;
       border-bottom: 2px solid #EEEDEF;
-      padding: 10px;
+      padding: 5px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -27,12 +27,16 @@
       flex-grow: 1;
       text-align: left;
       word-break: break-word;
+      font-size: 16px;
+      padding-left: 5px;
 }
 
 .tasks_name--done {
       flex-grow: 1;
       text-decoration: line-through;
       word-break: break-word;
+      font-size: 16px;
+      padding-left: 5px;
 }
 
 .tasks_button {
@@ -41,7 +45,7 @@
       width: 30px;
       height: 30px;
       padding: 0px;
-      margin: 0px 5px;
+      margin: 5px;
       flex-shrink: 0;
 
 }
