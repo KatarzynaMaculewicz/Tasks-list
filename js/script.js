@@ -75,7 +75,6 @@
   };
 
   const init = () => {
-    console.log("hello");
     render();
 
     const form = document.querySelector(".js-form");
