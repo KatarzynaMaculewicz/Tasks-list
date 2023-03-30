@@ -1,11 +1,11 @@
-.tasks_header {
+.tasks__header {
       padding: 20px;
       margin: 10px 0px 2px;
       font-size: 20px;
       background: white;
 }
 
-.tasks_element {
+.tasks__element {
       list-style: none;
       padding: 20px;
       padding-top: 35px;
@@ -14,7 +14,7 @@
       background: white;
 }
 
-.tasks_content {
+.tasks__content {
       background: white;
       border-bottom: 2px solid #EEEDEF;
       padding: 5px;
@@ -23,7 +23,7 @@
       justify-content: space-between;
 }
 
-.tasks_name {
+.tasks__name {
       flex-grow: 1;
       text-align: left;
       word-break: break-word;
@@ -31,7 +31,7 @@
       padding-left: 5px;
 }
 
-.tasks_name--done {
+.tasks__name--done {
       flex-grow: 1;
       text-decoration: line-through;
       word-break: break-word;
@@ -39,7 +39,7 @@
       padding-left: 5px;
 }
 
-.tasks_button {
+.tasks__button {
       border: none;
       color: white;
       width: 30px;
@@ -50,32 +50,32 @@
 
 }
 
-.tasks_button--toggleDone {
+.tasks__button--toggleDone {
       background: rgb(26, 122, 32);
 }
 
-.tasks_button--toggleDone:active {
+.tasks__button--toggleDone:active {
       border: 2px solid black;
       border-radius: 2px;
 }
 
 @media (max-width:767px) {
-      .tasks_button--toggleDone:active {
+      .tasks__button--toggleDone:active {
             border: none;
       }
 }
 
-.tasks_button--remove {
+.tasks__button--remove {
       background: crimson;
 }
 
-.tasks_button--remove:active {
+.tasks__button--remove:active {
       border: 2px solid black;
       border-radius: 2px;
 }
 
 @media (max-width:767px) {
-      .tasks_button--remove:active {
+      .tasks__button--remove:active {
             border: none;
       }
 }

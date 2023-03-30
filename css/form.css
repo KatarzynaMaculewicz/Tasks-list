@@ -14,25 +14,25 @@
       }
 }
 
-.form_button {
+.form__button {
       background-color: teal;
       color: white;
       border: none;
       padding: 10px 0px;
 }
 
-.form_button:active {
+.form__button:active {
       border: 2px solid black;
       border-radius: 2px;
 }
 
 @media (max-width:767px) {
-      .form_button:active {
+      .form__button:active {
             border: none;
       }
 }
 
-.form_input {
+.form__input {
       padding: 10px;
       border: 2px solid #EEEDEF;
 }
