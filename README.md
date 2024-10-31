@@ -1,5 +1,5 @@
 # To do list
-https://katarzynamaculewicz.github.io/To-do-list/
+https://katarzynamaculewicz.github.io/Tasks-list/
 
 ## Demo
 ![demo](images/to%20do%20list.gif)
